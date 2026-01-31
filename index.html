@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Live Store</h1>
+    </header>
+    <div id="controls">
+        <input type="text" id="searchBar" placeholder="Search products...">
+        <label>Filter by:</label>
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Accessories">Electronics</option>
+            <option value="Home">Home Essentials</option>
+            <option value="Beauty">Beauty & Skincare</option>
+        </select>
+        <label>Sort by:</label>
+        <select id="sortOrder">
+            <option value="default">Default</option>
+            <option value="price-low">Price:Low to High</option>
+            <option value="price-high">Price:High to Low</option>
+            <option value="name">Name (A-Z)</option>
+        </select>
+    </div>
+    <div id="productList"></div>
+    <script src="script.js"></script>
+</body>
+</html>
